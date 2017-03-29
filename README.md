@@ -1,5 +1,5 @@
 # React and React Native
-This is the code repository for [Building Bots with Node.js](https://www.packtpub.com/web-development/react-and-react-native), published by [Packt](https://www.packtpub.com/). It contains all the supporting project files necessary to work through the book from start to finish.
+This is the code repository for [React and React Native](https://www.packtpub.com/web-development/react-and-react-native), published by [Packt](https://www.packtpub.com/). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
 React and React Native allow you to build cross-platform desktop and mobile applications using Facebook’s innovative UI libraries. Combined with the Flux data architecture and Relay, you can now create powerful and feature-complete applications from just one code base!
 ### Instructions and Navigations
