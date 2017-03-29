@@ -30,7 +30,7 @@ Following is the software-hardware list:
 | ------------- | ------------- | ------------- | ------------- |
 | 01-26 | Node.js | PC or laptop with at least 2 GB of RAM (4 recommended) | OS Independent although Windows 8 or above recommended |
 
-##Related Products
+## Related Products
  
   
 * [React Native By Example](https://www.packtpub.com/application-development/react-native-example?utm_source=github&utm_medium=repository&utm_campaign=9781786464750)
@@ -43,6 +43,6 @@ Following is the software-hardware list:
   
  
 
-###Suggestions and Feedback
+### Suggestions and Feedback
   
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
