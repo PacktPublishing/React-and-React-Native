@@ -1,7 +1,5 @@
 module.exports = {
   entry: [
-    'webpack-dev-server/client?http://0.0.0.0:8080',
-    'webpack/hot/only-dev-server',
     './main.js',
   ],
   output: {
@@ -13,7 +11,7 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loaders: ['react-hot', 'babel?presets[]=es2015'],
+        loaders: ['babel-loader'],
       },
     ],
   },
