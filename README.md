@@ -16,7 +16,6 @@ installing dependencies, and how to launch the examples.
 
 ### Cloning The Repository
 To clone this repository:
-
 ```bash
 git clone https://github.com/PacktPublishing/React-and-React-Native.git
 ```
@@ -28,14 +27,12 @@ need to make sure all required dependencies are installed.
 ### Installing Dependencies
 To install the dependencies used with the code examples, open up a terminal
 if you haven't already, and change into the repo directory:
-
 ```bash
 cd React-and-React-Native
 ```
 
 Now you can use [npm](https://www.npmjs.com/) to install all the packages
 that we need:
-
 ```bash
 npm install
 ```
@@ -45,7 +42,6 @@ for a minute. These are the *local dependencies*, meaning that they're specific
 to the code examples in this Git repository. You can take a look at the
 `package.json` file to get an idea of what this project depends on. Or, you
 can simply list them in the console by running:
-
 ```bash
 npm ls --depth=0
 ```
@@ -53,7 +49,6 @@ npm ls --depth=0
 Npm also has the notion of global depnedencies. These are npm packages that
 are available to any project in on the system. We need to install two global
 dependencies in order to run the example code:
-
 ```bash
 npm install -g webpack-dev-server webpack
 ```
@@ -66,20 +61,17 @@ the `webpack-dev-server` command needed to run the examples.
 ### Running Examples
 First, you need to change into the directory of the example that you'd like
 to run:
-
 ```bash
 cd Chapter02/builtin-html-tags
 ```
 
 Then, you're ready to run the Webpack development server:
-
 ```bash
 webpack-dev-server --hot
 ```
 
 This starts the development web server. The console output will tell you
 where the server is listening for requests:
-
 ```
 Project is running at http://localhost:8081/
 ```
@@ -94,7 +86,6 @@ Each React Native example is it's own project. There are
 a few steps that should be followed, in order to build and
 run these projects. First of all, make sure you have the
 react-native-cli package installed:
-
 ```bash
 npm install react-native-cli -g
 ```
@@ -103,7 +94,6 @@ npm install react-native-cli -g
 --------------------
 
 Just like any regular React web projects:
-
 ```bash
 cd path/to/code
 npm install
@@ -114,7 +104,6 @@ When you start a React Native project, there're a number
 of source files generated. They're not included in this
 code bundle because it would be way too big. To generate
 them, run:
-
 ```bash
 react-native upgrade
 ```
@@ -125,7 +114,6 @@ You can answer yes to all of them.
 ### Run the project
 From within the given code directory, run one of the
 following:
-
 ```bash
 react-native run-ios
 react-native run-android
