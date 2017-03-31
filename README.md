@@ -130,3 +130,30 @@ following:
 react-native run-ios
 react-native run-android
 ```
+
+### Instructions and Navigations
+All of the codes are organized as per the chapters, each folder has the codes related to that chapter or appendix.                   
+For example: React-and-React-Native/Chapter02/html-tag-conventions/main.js
+
+Following is the software-hardware list:
+
+| Chapter  | Software required | Hardware required | OS required |
+| ------------- | ------------- | ------------- | ------------- |
+| 01-26 | Node.js | PC or laptop with at least 2 GB of RAM (4 recommended) | OS Independent although Windows 8 or above recommended |
+
+## Related Products
+ 
+  
+* [React Native By Example](https://www.packtpub.com/application-development/react-native-example?utm_source=github&utm_medium=repository&utm_campaign=9781786464750)
+  
+  
+* [Mastering React Native](https://www.packtpub.com/web-development/mastering-react-native?utm_source=github&utm_medium=repository&utm_campaign=9781785885785)
+  
+  
+* [React Native Cookbook](https://www.packtpub.com/application-development/react-native-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781786462558)
+  
+ 
+
+### Suggestions and Feedback
+  
+[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
