@@ -9,7 +9,7 @@ import webpack from 'webpack';
 // We need the main "routes" module in the
 // server...
 import routes from './routes';
-import * as config from './webpack.config.js';
+import config from './webpack.config.js';
 
 const doc = content =>
   `

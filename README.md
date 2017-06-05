@@ -47,10 +47,10 @@ npm ls --depth=0
 ```
 
 Npm also has the notion of global depnedencies. These are npm packages that
-are available to any project in on the system. We need to install two global
-dependencies in order to run the example code:
+are available to any project in on the system. We need to install the following
+global dependencies in order to run the example code:
 ```bash
-npm install -g webpack-dev-server webpack
+npm install -g webpack-dev-server webpack babel babel-cli
 ```
 
 This will make the [webpack](https://www.npmjs.com/package/webpack) and the
@@ -80,6 +80,16 @@ You can visit this page to interact with the example. The `--hot` option isn't
 always necessary. In fact, it's really only useful if you plan on modifying
 the code examples (recommended!) and you want to see the results in the browser
 immediately.
+
+If you find a `server.js` file in the example directory, this should be
+executed instead of the `webpack-dev-server` command:
+```bash
+babel-node server.js
+```
+
+Then, you can visit the address displayed in the console, in your browser,
+just like you would with `webpack-dev-server`.
+
 
 ## Building React Native Projects
 Each React Native example is it's own project. There are
@@ -128,7 +138,7 @@ react-native run-android
 
 
 * [React Native Cookbook](https://www.packtpub.com/application-development/react-native-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781786462558)
-  
+
 ### Suggestions and Feedback
 
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
