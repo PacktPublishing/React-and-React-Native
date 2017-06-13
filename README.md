@@ -121,6 +121,15 @@ react-native upgrade
 This will ask you about overwriting a number of files.
 You can answer yes to all of them.
 
+### Link dependencies
+Some examples have dependencies that need to be *linked*. It's
+generally a good idea to link projects even if they don't have
+any dependencies, because you never know when new dependencies
+will creep in:
+```bash
+react-native link
+```
+
 ### Run the project
 From within the given code directory, run one of the
 following:
