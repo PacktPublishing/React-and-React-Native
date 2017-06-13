@@ -1,4 +1,4 @@
-import fetchMock from 'fetch-mock';
+import fetchMock from './fetch-mock/src/client.js';
 
 // Items...keep'em coming!
 function* genItems() {
