@@ -6,7 +6,7 @@ import { render } from 'react-dom';
 console.log('available tags',
   Object.keys(React.DOM).sort());
 
-// React internall defines all the standard HTML tags
+// React internally defines all the standard HTML tags
 // that we use on a daily basis. Think of them being
 // the same as any other react component.
 render((
