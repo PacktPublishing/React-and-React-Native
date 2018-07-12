@@ -34,6 +34,7 @@
     "immutable": "^3.8.1",
     "jquery": "^3.1.1",
     "jquery-ui": "github:jquery/jquery-ui",
+    "npm": "^6.0.0",
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.3",
     "react-dom": "^15.4.2",
@@ -46,7 +47,7 @@
     "request": "^2.79.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^2.3.2",
+    "webpack": "^4.6.0",
     "webpack-dev-server": "^2.4.2",
     "winston": "^2.3.0"
   }
