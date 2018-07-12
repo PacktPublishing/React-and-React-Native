@@ -1,0 +1,29 @@
+{
+  "name": "second-edition",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "cuid": "^2.1.1",
+    "immutable": "^3.8.2",
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "postinstall": "node postinstall.js",
+    "server": "babel-node src/server.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-react": "^6.24.1"
+  }
+}

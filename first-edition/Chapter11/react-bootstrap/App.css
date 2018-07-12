@@ -1,0 +1,22 @@
+.navbar-top {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.sidebar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    display: block;
+    position: fixed;
+    top: 60px;
+  }
+}
+
+.content {
+  top: 60px;
+}
