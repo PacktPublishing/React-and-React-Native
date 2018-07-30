@@ -1,0 +1,10 @@
+{
+  "name": "services",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "express": "^4.16.3"
+  },
+  "scripts": { "start": "babel-node index" }
+}
