@@ -1,0 +1,37 @@
+{
+  "name": "TodoRelayMobile",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-relay": "^1.6.0",
+    "jest-expo": "~27.0.0",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest",
+    "update-schema": "babel-node tools/updateSchema.js",
+    "relay-compiler": "relay-compiler --src ./src --exclude 'data/**' --schema src/data/schema.graphql"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "buffer": "^5.2.0",
+    "classnames": "^2.2.6",
+    "expo": "^27.0.1",
+    "graphql": "^0.13.2",
+    "graphql-relay": "^0.5.5",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-relay": "^1.6.0",
+    "relay-compiler": "^1.6.0",
+    "relay-local-schema": "^0.7.0"
+  }
+}
