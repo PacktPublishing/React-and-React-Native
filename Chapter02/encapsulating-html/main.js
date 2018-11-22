@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-// "MyComponent" extends "Compoennt", which means that
+// "MyComponent" extends "Component", which means that
 // we can now use it in JSX markup.
 class MyComponent extends Component {
   render() {
