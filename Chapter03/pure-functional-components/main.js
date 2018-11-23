@@ -25,7 +25,7 @@ function render({ first, second }) {
   );
 }
 
-// Reders the components, passing in property data.
+// Renders the components, passing in property data.
 render({
   first: {
     text: 'First Button',
